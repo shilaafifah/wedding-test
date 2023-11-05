@@ -5,5 +5,11 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [   {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `static`,
+      path: `${__dirname}/static/`, // Path to your static directory
+    },
+  },],
 }

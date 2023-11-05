@@ -1,9 +1,9 @@
 {
-  "name": "wedding-invitato",
+  "name": "weeding-invitation",
   "version": "1.0.0",
   "private": true,
-  "description": "wedding-invitato",
-  "author": "Shila Afifah",
+  "description": "weeding-invitation",
+  "author": "Taufik",
   "keywords": [
     "gatsby"
   ],
@@ -16,7 +16,11 @@
   },
   "dependencies": {
     "gatsby": "^5.12.4",
+    "gatsby-source-filesystem": "^5.12.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-h5-audio-player": "^3.9.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   }
 }
